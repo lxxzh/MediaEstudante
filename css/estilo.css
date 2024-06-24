@@ -1,0 +1,62 @@
+
+
+body{
+    background: rgb(39,109,113);
+background: linear-gradient(71deg, rgba(39,109,113,1) 6%, rgba(39,109,113,1) 6%, rgba(22,106,107,1) 32%, rgba(42,157,166,1) 77%);
+}
+
+.display {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 5%;
+}
+
+@font-face {
+    font-family: "Minha fonte";
+    src: url('../fonts/DancingScript-VariableFont_wght.ttf');
+}
+.display > h1{
+    color: white;
+    font-family: "Minha fonte" ;
+    font-size: 3em;
+}
+
+.input-text {
+    margin: 4px;
+}
+
+.input-text input[type=text]{
+    padding: 8px;
+    border-radius: 2px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.input-text input[type=button]{
+    background: rgb(3, 3, 3);
+    color: white;
+    padding: 4%;
+    width: 12em;
+    font-size: 13px ;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-bottom: 15%;
+    cursor: pointer;
+    border: none;
+
+}
+
+.input-text > #lmp{
+    background: rgb(233, 34, 34);
+}
+
+.display > h2{
+    color: white;
+    margin: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: bold;
+}
